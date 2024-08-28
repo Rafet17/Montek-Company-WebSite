@@ -11,7 +11,7 @@
     }
 
     body {
-        font-family: 'Clash Display', sans-serif;
+        font-family: 'Kanit', sans-serif;
         line-height: 1.6em;
         font-weight: 400;
         font-size: 14px;
@@ -53,12 +53,6 @@
         --white-color-rgb: 255, 255, 255;
         --black-color: rgb(0, 0, 0);
         --black-color-rgb: 0, 0, 0;
-
-        --light-font: 300;
-        --regular-font: 400;
-        --medium-font: 500;
-        --semibold-font: 600;
-        --bold-font: 700;
     }
 
     h1 {
@@ -71,7 +65,7 @@
     }
 
     h2 {
-        font-weight: var(--semibold-font);
+        font-weight: 700;
         line-height: 43px;
         font-size: 33px;
     }
@@ -79,6 +73,7 @@
     h3 {
         line-height: 42px;
         font-size: 32px;
+        font-weight: 400;
     }
 
     h4 {
@@ -99,7 +94,6 @@
     h6 {
         margin-top: 0;
         margin-bottom: .5rem;
-        font-weight: 500;
         line-height: 1.2;
     }
 
@@ -142,10 +136,6 @@
     .main-header .header-lower {
         position: relative;
         transition: all 900ms ease;
-        -moz-transition: all 900ms ease;
-        -webkit-transition: all 900ms ease;
-        -ms-transition: all 900ms ease;
-        -o-transition: all 900ms ease;
     }
 
     .main-header .header-lower .inner-container {
@@ -296,9 +286,11 @@
 
     .banner-one-heading {
         text-align: center;
+        font-weight: 700;
         margin-bottom: 80px;
         color: var(--white-color);
         text-transform: uppercase;
+        line-height: 180px;
     }
 
     .lower-box {
@@ -336,7 +328,6 @@
         width: 125px;
         height: 125px;
         cursor: pointer;
-        -webkit-animation: icon-bounce 0.8s ease-out infinite;
         animation: icon-bounce 0.8s ease-out infinite;
     }
 
