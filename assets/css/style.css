@@ -957,12 +957,12 @@
         opacity: 1;
         transform: scale(1, 1);
     }
-    
-    .awards-box-inner:hover span{
+
+    .awards-box-inner:hover span {
         opacity: 1;
     }
 
-    .awards-box-content{
+    .awards-box-content {
         display: flex;
         align-items: center;
         gap: 20px;
@@ -1008,8 +1008,109 @@
         line-height: 1em;
         color: var(--white-color);
     }
-    
+
     /* ! Awards end */
+
+
+    /* * <------------------------------------> */
+
+
+    /* ! Footer start */
+
+    .main-footer {
+        position: relative;
+        background: linear-gradient(to top, var(--main-color) 0%, var(--color-two) 100%);
+    }
+
+
+    .footer-wrapper {
+        display: grid;
+        grid-template-columns: 66% 33%;
+        padding: 100px 0;
+    }
+
+    .footer-text {
+        position: relative;
+        font-size: 18px;
+        line-height: 28px;
+        color: var(--white-color);
+    }
+
+    .main-footer h2 {
+        position: relative;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 70px;
+        margin-top: 50px;
+        color: var(--white-color);
+    }
+
+    .main-footer h2 a {
+        position: relative;
+        color: var(--white-color);
+        border-bottom: 2px solid var(--white-color);
+    }
+
+    .footer-socials {
+        position: relative;
+        margin-top: 60px;
+    }
+
+    .footer-socials li {
+        position: relative;
+        margin-right: 15px;
+        display: inline-block;
+    }
+
+    .footer-socials li a {
+        position: relative;
+        font-size: 18px;
+        font-weight: 400;
+        color: var(--white-color);
+    }
+
+    .footer-navs {
+        position: relative;
+    }
+
+    .footer-navs li {
+        position: relative;
+        border-top: 1px solid rgba(var(--white-color-rgb), 0.20);
+    }
+
+    .footer-navs li a {
+        position: relative;
+        font-size: 18px;
+        display: block;
+        font-weight: 400;
+        padding: 18px 0px;
+        color: var(--white-color);
+    }
+
+    .footer-navs li a i {
+        position: absolute;
+        right: 0px;
+        transform: rotate(45deg);
+        -webkit-transition: all 300ms ease;
+        -moz-transition: all 300ms ease;
+        -ms-transition: all 300ms ease;
+        -o-transition: all 300ms ease;
+        transition: all 300ms ease;
+    }
+
+    .footer-bottom {
+        position: relative;
+        padding: 40px 0px;
+        background-color: var(--color-four);
+    }
+
+    .copyright {
+        position: relative;
+        font-size: 20px;
+        color: var(--white-color);
+    }
+
+    /* ! Footer end */
 
 
     /* * <------------------------------------> */
