@@ -764,6 +764,8 @@
     }
 
     .testimonial-lower .quate-icon {
+        display: flex;
+        gap: 30px;
         position: absolute;
         left: 0;
         top: 6px;
